@@ -10,7 +10,7 @@ function Directory(){
 
     return(
         <div className='directory-menu'>
-            {sectionsData.map(({id, ...otherSectionProps}) => (
+            {sections.map(({id, ...otherSectionProps}) => (
                <MenuItem
                 key={id}
                 {...otherSectionProps}
